@@ -16,16 +16,16 @@ font-family: Arial;
       font-size: 20px;
 }
 h3 {
- font-family: Arial;
     text-align: center;
-    font-family: Arial;
-    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif, Tahoma, Verdana;
+    font-size: 45px;
+
 }
 /* Contenedor principal que alinea todo en fila */
 .galeria-personajes {
   display: flex;
   flex-wrap: wrap;       /* Permite que bajen a la siguiente fila si no caben */
-  gap: 20px;            /* Espacio exacto entre las fotos (como en el ejemplo) */
+  gap: 25px;            /* Espacio exacto entre las fotos (como en el ejemplo) */
   justify-content: center; /* Centra la galería en la página */
   padding: 20px;
 }
@@ -36,11 +36,11 @@ h3 {
   width: 250px;           /* Ajusta el ancho de cada columna según prefieras */
 }
 .nombre {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif, Tahoma, Verdana;
   font-weight: bold;
   margin-bottom: 8px;    /* Espacio entre el nombre y la foto */
   text-align: center;
-  color: #333;
+  color: black;
 }
 .personaje-card img {
   width: 100%;           /* La imagen ocupa todo el ancho del contenedor */
@@ -49,3 +49,9 @@ h3 {
   border-radius: 2px;    /* Bordes suaves (opcional, estilo profesional) */
   box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra ligera para dar profundidad */
 }   
+.imagen-prin{
+    display: block;      /* Esto permite que use márgenes */
+    margin-left: auto;   /* Empuja desde la izquierda */
+    margin-right: auto;  /* Empuja desde la derecha */
+    width: 50%;          /* Opcional: ajusta el tamaño que quieras */
+}
